@@ -64,6 +64,10 @@ def logout(request):
     return redirect('/')
 
 
+def about(request):
+    return render(request, 'store/about.html')
+
+
 def store(request):
 
     data = cartData(request)
