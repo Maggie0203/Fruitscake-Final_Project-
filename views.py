@@ -43,7 +43,7 @@ def success(request):
         'user': this_user[0]
     }
 
-    return render(request, 'success.html', context)
+    return render(request, 'store/success.html', context)
 
 
 def login(request):
