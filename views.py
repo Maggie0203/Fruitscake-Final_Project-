@@ -68,6 +68,10 @@ def about(request):
     return render(request, 'store/about.html')
 
 
+def contact(request):
+    return render(request, 'store/contact.html')
+
+
 def store(request):
 
     data = cartData(request)
